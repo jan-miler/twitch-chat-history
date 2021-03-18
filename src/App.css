@@ -1,0 +1,25 @@
+.chat {
+  background-color: #efeff1;
+  width: 100%;
+  max-width: 400px;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  padding: 1rem;
+}
+/* Message*/
+.message {
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+li:hover {
+  background-color: #dbdbdf;
+}
+
+.emoticon,
+img {
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: middle;
+}
